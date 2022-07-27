@@ -2,7 +2,7 @@
 <?php
 
 for($texto = 0; $texto <=22; $texto++){
-    echo "</br>" ."Olá";
+    echo "Olá -" .$texto."</br>" ;
 }
 
 
