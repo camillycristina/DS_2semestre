@@ -2,6 +2,12 @@
 
 <?php
 
-$numero = $_POST["numero"]
+$numero = $_POST['numero'];
+$resultado = 1;
 
+for($contador= $numero; $contador>1;$contador--){
+    $resultado=$resultado*$numero;
+    $numero--;
+}
+echo "O fatorial de $resultado. "
 ?>
