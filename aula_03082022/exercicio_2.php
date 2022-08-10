@@ -4,9 +4,9 @@
 
 $n = $_POST['numero'];
 
-for($numero=1; $con<=10; $numero++){
-    $r=$valor*$numero;
-    echo"$valor X $numero = $r<br>";
+for($numero=1; $numero<=10; $numero++){
+    $r=$n*$numero;
+    echo "$n * $numero = $r </br>";
 }
 
 ?>
