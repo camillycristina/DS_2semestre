@@ -1,3 +1,6 @@
+<!-- Uma função é é uma pequena rotina nomeada que permite que certo algoritimo seja reutilizado pela aplicação, garantindo que seu codigo não sera duplicado, e que sua manutenção sera feita em apenas um lugar.
+Uma função efetua uma tarefa específica, possivelmente processando um conjunto de valores fornecidos a ela (parâmetros) e/ou retornando algum valor -->
+
 <?php
 $operador="+";
 //Função
