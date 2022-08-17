@@ -2,20 +2,19 @@
 
 <?php
 
-$operador="+";
- function somar($v1, $v2){
-     $soma = $v1 + $v2;
+ function  verificar($n){
+     
+    if($n>0){
+        echo "Seu número é positivo";
+    }
+    elseif($n<0){
+        echo "Seu número é negativo";
+    }
+    else {
+        echo "Seu número é igual a zero";
+    }
+}
 
-     return "<h2>$soma</h2>";
-
- }
- echo "A soma é: " . somar(10,5); //1º Chamada da função
-
- if($operador== "+"){
-     echo somar(50,10); //2º Chamada da função 
- }
- else{
-     echo "Operador inválido"
- }
+echo somar(0);
 
 ?>

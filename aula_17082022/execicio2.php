@@ -2,29 +2,29 @@
 
 <?php
 
-$chamada="+";
- function valor($v1, $v2){
-     $valor = $v1 + $v2;
+function  valor($n){
+     
+    if($n%2==0){
+        echo "Seu número é par" . "<br>";
+    }
+    elseif($n%2==1){
+        echo "Seu número é impar" . "<br>";
+    }
+    else {
+        echo "Seu número é igual a zero". "<br>";
+    }
 
-     return "<h2>$valor</h2>";
-
- }
- echo "A soma é: " . valor(10,5); //1º Chamada da função
-
- if($chamada== "+"){
-     echo valor(50,10); //2º Chamada da função
- }
- else{
-     echo "Operador inválido"
- }
-
- switch($chamada){
-    case '+':
-       echo valor(99,1); //3º Chamada da função
-       break;
-       default:
-       echo "Operador invalido!";
-       break;
+    $resultado = 1;
+    for($cont = $n; $cont > 1; $cont--){
+        $resultado = $resultado * $n; //5 * 4 * 3 * 2 * 1
+        $n--; // 5 4 3 2 1
+    }
+    echo "O fatorial é $resultado" . "</br>";
 }
+
+
+echo valor(5); 
+echo valor(10); 
+echo valor(2); 
 
 ?>
