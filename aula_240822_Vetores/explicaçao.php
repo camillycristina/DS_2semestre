@@ -1,0 +1,2 @@
+<!-- Vetores em PHP -->
+<!-- vetores em PHP são conhecidos como ARRAYS, ou seja, são coleções de dados. Arrays são considerados tipos de dados, assim como os tipos string,float,integer,double,booleam,etc. Na linguagem PHP, assim como em outras linguagens, os vetores podem conter muitas posições, e tambem podem conter tipos difirentes de dados, sendo cada posição independente das outras,decerta forma-->
