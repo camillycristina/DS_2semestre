@@ -7,16 +7,15 @@
       <pre>
        <?php
 
-        $vetor = array(
-            1,
-            2,
-            3
-        );
+        $vetor = [
+            "Naruto",
+            "Ore Piece",
+            "Dragon Ball"
+        ];
+
         echo var_dump($vetor) . "</br></br>";
 
-        //Adiciona no final do vetor
-        $vetor [] = 6;
-        $vetor [] = "Teste";
+        array_push($vetor, "Attack on Titan"); //Adiciona no final do vetor
 
         echo var_dump($vetor);
 
