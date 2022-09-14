@@ -13,7 +13,7 @@
               );
               echo var_dump($dados);
               echo "</br></br>";
-               $dados[]
+               $dados
             ?>
 </body>
 </html>
