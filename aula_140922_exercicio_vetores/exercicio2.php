@@ -2,7 +2,7 @@
 
 <?php
 
-$vetor1 =[2,4,3];
+$vetor1 =[2,5,3];
 $vetor=[];
 
 echo var_dump($vetor1) . "</br>";
