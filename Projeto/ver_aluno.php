@@ -27,10 +27,12 @@
         echo '<td>' . $linha['Idade'] . '</td>';
         ?>
 
-        <td><a href ="deleta_aluno.php?ID =
-        <?php echo $linha['ID']; ?>">
+        <td>
+            <a href="projeto.php&editar=<?php echo $linha['ID']; ?>">
+        <input type= "submit" value="Editar"/>
 
-         <input type="submit" value="Excluir"/>
+        <td><a href ="deleta_aluno.php?ID=<?php echo $linha['ID']; ?>">
+        <input type= "submit" value="Excluir"/>
     </a></td></tr>
 
 
